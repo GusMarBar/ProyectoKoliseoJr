@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
+:root{
+    --padding-container: 100px 0;
+    --color-title: red
+}
+
+body{
+    font-family:'Poppins', sans-serif
+}
+
+
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: green;
+    padding: var(--padding-container);
+}
+
